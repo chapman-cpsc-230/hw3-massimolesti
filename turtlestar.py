@@ -1,16 +1,20 @@
 import turtle
-def draw_reg_polygon(t,num_sides,side_len):
-    t.left(30)
-    for i in range(num_sides):
-        t.forward(side_len)
-        t.left(360.0/num_sides)
+
 # Ask user for input here.
+n = raw_input("enter an odd natural number >= 5: ")
+n = int(n)
+while n < 5.0:
+    n = raw_input("enter an odd natural number >= 5: ")
+    n = int(n)
+side_len = raw_input("Length of sides: ")
+side_len = int(side_len)
 
 # Now create a graphics window.
 t = turtle.Pen()
-for j in range (3):
-    draw_reg_polygon(t,6,50)
-    t.right(150)
+for j in range (n):
+    t.forward(side_len)
+    t.left(1800/n)
+
 # Put the rest of your code can go here
 
 # Prevent the graphics window from diappearing too
