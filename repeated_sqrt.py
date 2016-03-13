@@ -18,3 +18,7 @@ for n in range (1,60):
             print "The square root of 2.0 equals %.16f; that number squared is %.16f" %(r1,r2)
             n.remove (51)
 #The square root of 2 is an infinite decimal and the computer cannot save an infinite amount of numbers. So, it rounds instead. However, when that number is called to be squared, the rounded version is used which means it won't actually be 2.0 again. done enough times, the proces will drastically change the outcomes. 
+
+### MAM: Lines of code (including comments should be short 
+### -- no more than 80 characters.
+### Your comments should be broken up into multiple lines.
